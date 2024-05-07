@@ -5,7 +5,7 @@ let count = 0;
 
 const ul = document.getElementById("lista");
 
-while (count !== listaSpesa.length) {
+while (count < listaSpesa.length) {
     const li = document.createElement("li");
     li.append(listaSpesa[count]);
     ul.append(li);
